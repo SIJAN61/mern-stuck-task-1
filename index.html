@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+</head>
+<body>
+    <header>
+        <img src="https://ledp.ictd.gov.bd/global/img/ictdd.png" alt="ict" width="127">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="https://ledp.ictd.gov.bd/global/img/ledp.apng" alt="" width="182">
+        <hr>
+        <nav">
+            <a href="#">Home</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Course Module - 2020</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Class Schedule</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Success Story</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Attendance</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">FAQ</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Login</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Student Registration Form</h1>
+            <hr>
+            <h2>Please enter relevent information ------------------------------------------------------------------------------------------------</h2>
+            <small>Mandatory Field*</small>
+        </section>
+        <section>
+            <form action="">
+                <label for="dname">District <small> (Institute District: Where you want to do your course)*</small></label>
+                <br>
+                <select name="dname" id="">
+                    <option value="--select one--"disabled selected>--select one--</option>
+                    <option value="Rangpur">Rangpur</option>
+                    <option value="Rajshahi">Rajshahi</option>
+                    <option value="Barishal">Barishal</option>
+                </select>
+                <br>
+                <label for="cname">Course*</label>
+                <br>
+                <select name="dname" id="">
+                    <option value="--select one--"disabled selected>--select one--</option>
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">JAVASCRIPT</option>
+                </select>
+                <br>
+                <label for="">Student Name*</label>
+                <br>
+                <input type="text" class="text">
+                <br>
+                <label for="">Father Name*</label>
+                <br>
+                <input type="text" class="text">
+                <br>
+                <label for="">Mother Name*</label>
+                <br>
+                <input type="text" class="text">
+                <br>
+                <fieldset style="width: 50%;">
+                    <legend>Date of Birth*</legend>
+                    <table style="width: 50%;text-align: center;">
+                        <tr style="font-size: large;">
+                            <th>Day:</th>
+                            <th>Month:</th>
+                            <th>Year:</th>
+                        </tr>
+                        <td>
+                            <select name="day" id="">
+                                <option value="">select</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="month" id="">
+                                <option value="">select</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="month" id="">
+                                <option value="">select</option>
+                                <option value="">1999</option>
+                                <option value="">2000</option>
+                                <option value="">2001</option>
+                                <option value="">2002</option>
+                                <option value="">2003</option>
+                                <option value="">2004</option>
+                                <option value="">2005</option>
+                            </select>
+                        </td>
+                    </table>
+                </fieldset>
+            </form>
+            <br>
+            <form action="">
+                <label for="">Gender*</label>
+                <input type="radio" name="fav_language">
+                <label for="">male</label>
+                <input type="radio" name="fav_language">
+                <label for="">female</label>  
+            </form>
+            <br>
+        <form action="">
+            <label for="">Physically Handicapped*</label>
+            <input type="radio" name="fav_language" id="">
+            <label for="">yes</label>
+            <input type="radio" name="fav_language" id="">
+            <label for="">no</label>
+        </form>
+        <br>
+        <form action="">
+            <label for="email">Email*</label>
+            <br>
+            <input type="email" name="email" id="">
+            <br>
+            <small>(e.g.example@mail.com)</small>
+        </form>
+        <br>
+        <form action="">
+            <label for="">Phone*<small>(nust be 11 digits)</small></label>
+            <br>
+            <input type="number" name="" id="">
+        </form>
+        <br>
+        <form action="">
+            <label for="">Identification Type*</label>
+            <select name="" id="">
+                <option value="">select one</option>
+                <option value="">Birth certificate no.</option>
+                <option value="">National ID</option>
+            </select>
+        </form>
+        <br>
+        <form action="">
+              <label for="">Photograph*</label>
+              <br>
+              <input type="file" name="" id="">
+        </form>
+        <br>
+        <form action="">
+           <input type="button" value="Submit Data"> 
+        </form>
+        </section>
+    </main>
+</body>
+</html>
